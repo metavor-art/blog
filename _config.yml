@@ -17,6 +17,9 @@ plugins:
 collections:
   posts:
     output: true
+  musings:
+    output: true
+    permalink: /musings/:year/:month/:day/:title/
 
 permalink: /:year/:month/:day/:title/
 
