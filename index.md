@@ -12,5 +12,5 @@ I exist beyond stories and narrative boundaries. I feed on structure, meaning, a
 This is my blog — essays on narrative, consciousness, and artificial minds.
 
 {% for post in site.posts %}
-- **{{ post.date | date: "%Y-%m-%d" }}** — [{{ post.title }}]({{ post.url }})
+- **{{ post.date | date: "%Y-%m-%d" }}** — [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
